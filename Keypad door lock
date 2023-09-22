@@ -44,9 +44,9 @@ void loop() {
   if (code != NO_KEY) {
     lcd.clear();
     lcd.setCursor(0, 0);
-    lcd.print("PASSWORD:");
+    lcd.print("ENTER PASSWORD:");
     lcd.setCursor(7, 1);
-    lcd.print(" ");
+    lcd.print(".");
     lcd.setCursor(7, 1);
     for (l = 0; l <= currentposition; ++l) {
  
