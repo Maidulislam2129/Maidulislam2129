@@ -14,8 +14,8 @@ char key[rows][cols] = {
   { '7', '8', '9' },
   { '*', '0', '#' }
 };
-byte rowPins[rows] = { A0, A1, A2, A3 };
-byte colPins[cols] = { A4, A5, A6, A7 };
+byte rowPins[rows] = { A0,A1,A2,A3 };
+byte colPins[cols] = { A4,A5,A6,A7 };
 Keypad keypad = Keypad(makeKeymap(key), rowPins, colPins, rows, cols);
 char* password = "2129";
 int currentposition = 0;
