@@ -53,9 +53,9 @@ void setup()
   lcd.createChar(1, back);
   lcd.print("Simple Mobile ");
    lcd.setCursor(1,0);
-  lcd.print("  Welcome To");
+  lcd.print("❤️Welcome To❤️");
   lcd.setCursor(0,1);
-  lcd.print("    SamZone  ");
+  lcd.print("   ❤️Ai Mi❤️  ");
   delay(4000);
     lcd.setCursor(0,1);
   lcd.print("System Ready..");
